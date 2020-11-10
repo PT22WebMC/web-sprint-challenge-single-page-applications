@@ -19,8 +19,8 @@ const formSchema = yup.object().shape({
 });
 
 const Form = () => {
-  const price1 = "$17.99";
-  const price2 = "$17.99";
+  const price1 = "$5.99";
+  const price2 = "$10.99";
   const price3 = "$17.99";
 
   const [formState, setFormState] = useState({
